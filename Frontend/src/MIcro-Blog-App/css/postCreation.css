@@ -1,0 +1,51 @@
+/* Container Styling */
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Card Styling */
+.card {
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Label Styling */
+.form-label {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Textarea and Input Styling */
+.form-control {
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  transition: all 0.2s ease;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.25);
+}
+
+/* Button Styling */
+button {
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .btn-lg {
+    width: 100% !important;
+  }
+}

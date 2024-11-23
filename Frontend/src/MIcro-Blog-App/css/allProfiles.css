@@ -1,0 +1,66 @@
+/* Container for the profile list */
+.all-profiles-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* List of profiles */
+.all-profiles-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 15px; /* Space between items */
+}
+
+/* Individual profile list item */
+.all-profiles-container li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile user name */
+.all-profiles-container li span {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Follow/Unfollow button styling */
+.all-profiles-container button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Follow button */
+.all-profiles-container button.follow {
+    background-color: #0095f6;
+}
+
+.all-profiles-container button.follow:hover {
+    background-color: #007bb5;
+}
+
+/* Unfollow button */
+.all-profiles-container button.unfollow {
+    background-color: #ed4956;
+}
+
+.all-profiles-container button.unfollow:hover {
+    background-color: #c82333;
+}
