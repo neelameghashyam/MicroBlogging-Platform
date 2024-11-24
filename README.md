@@ -37,11 +37,5 @@ A **Micro Blogging Platform** built with the **MERN (MongoDB, Express, React, No
 - **Security**: Includes data encryption, secure authentication, and protection against vulnerabilities (e.g., XSS, CSRF).
 - **Data Management**: MongoDB efficiently handles data storage for users, posts, and comments.
 
-## 🤝 Contributing
-Contributions are welcome! Feel free to submit pull requests or raise issues for improvement.
-
-## 📄 License
-Licensed under the MIT License. See the `LICENSE` file for details.
-
 ## 📧 Contact
 For inquiries, reach out to **Neelameghashyam Raya** at [rayaneelameghashyam@gmail.com](mailto:rayaneelameghashyam@gmail.com).
