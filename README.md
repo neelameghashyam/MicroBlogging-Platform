@@ -32,9 +32,6 @@ A **Micro Blogging Platform** built with the **MERN (MongoDB, Express, React, No
 - **Following**: Follow users to see their posts in your feed.
 - **Followers**: View who follows you and whom you follow.
 
-### 🔍 Search
-- **Find Users**: Search for users by their username.
-
 ### 🖥️ Additional Features
 - **Responsive Design**: Optimized for mobile, tablet, and desktop.
 - **Security**: Includes data encryption, secure authentication, and protection against vulnerabilities (e.g., XSS, CSRF).
